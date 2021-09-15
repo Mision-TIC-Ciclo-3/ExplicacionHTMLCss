@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/estilos.css" rel="stylesheet" />
     <title>Hola, este es el titulo</title>
   </head>
   <body>
     <header>
       <h3>Esto es una lista ordenada:</h3>
       <ol>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
+        <li class="textoGris fondoRojo textoGrandeNegrita">Elemento 1</li>
+        <li class="textoAzul fondoAmarillo">Elemento 2</li>
         <li>Elemento 3</li>
         <li>Elemento 4</li>
         <li>Elemento 5</li>
@@ -23,7 +24,7 @@
         <li>Elemento 4</li>
         <li>Elemento 5</li>
       </ul>
-      <div>hola, esto es un div</div>
+      <div class="textoGrandeNegrita textoAzul">hola, esto es un div</div>
     </header>
     <main>
       <section>
@@ -43,28 +44,80 @@
         <a href="./formulario.html">Este es un link al formulario</a>
         <article>
           <h3>Parrafo 1</h3>
-          <p>
+          <p class="textoGris parrafoAngosto">
             Esto es un párrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
             incidunt amet quibusdam. Quas beatae odit aperiam iste voluptates, eum placeat ipsum
             soluta fuga atque cumque quia excepturi est fugiat dignissimos?
           </p>
           <h3>Parrafo 2</h3>
-          <p>
+          <p class="parrafoNegro">
+            Este es el segundo parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Omnis incidunt amet quibusdam. Quas beatae odit aperiam iste voluptates, eum placeat
+            ipsum soluta fuga atque cumque quia excepturi est fugiat dignissimos?
+          </p>
+          <p class="parrafoNegro">
+            Este es el segundo parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Omnis incidunt amet quibusdam. Quas beatae odit aperiam iste voluptates, eum placeat
+            ipsum soluta fuga atque cumque quia excepturi est fugiat dignissimos?
+          </p>
+          <p class="parrafoGris">
+            Este es el segundo parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Omnis incidunt amet quibusdam. Quas beatae odit aperiam iste voluptates, eum placeat
+            ipsum soluta fuga atque cumque quia excepturi est fugiat dignissimos?
+          </p>
+          <p class="parrafoNegro">
+            Este es el segundo parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Omnis incidunt amet quibusdam. Quas beatae odit aperiam iste voluptates, eum placeat
+            ipsum soluta fuga atque cumque quia excepturi est fugiat dignissimos?
+          </p>
+          <p class="parrafoPadding">
             Este es el segundo parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Omnis incidunt amet quibusdam. Quas beatae odit aperiam iste voluptates, eum placeat
             ipsum soluta fuga atque cumque quia excepturi est fugiat dignissimos?
           </p>
           <h3>Parrafo 3</h3>
-          <p>
+          <p id="parrafo3">
             este es el tercer parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
             incidunt amet quibusdam. Quas beatae odit aperiam iste voluptates, eum placeat ipsum
             soluta fuga atque cumque quia excepturi est fugiat dignissimos?
           </p>
           <span>Este es un texto corto</span>
         </article>
-        <img src="./media/borderCollie.jpg" alt="Foto de un Border Collie" />
+        <img class="imagenPequeña" src="./media/borderCollie.jpg" alt="Foto de un Border Collie" />
       </section>
-      <section>Tabla con la info</section>
+      <section>
+        <div class="contenedorConMargen">
+          <div>Div1</div>
+          <div>Div2</div>
+          <div>Div3</div>
+        </div>
+        <div class="contenedorDivsGrid">
+          <div class="divTest">Div1</div>
+          <div class="divTest">Div2</div>
+          <div class="divTest">Div3</div>
+          <div class="divTest">Div4</div>
+          <div class="divTest">Div5</div>
+          <div class="divTest">Div7</div>
+          <div class="divTest">Div8</div>
+          <div class="divTest">Div9</div>
+          <div class="divTest">Div10</div>
+          <div class="divTest">Div11</div>
+          <div class="divTest">Div12</div>
+        </div>
+        <div class="contenedorDivsFlex">
+          <div class="divTest">Div1</div>
+          <div class="divTest">Div2</div>
+          <div class="divTest">Div3</div>
+          <div class="divTest">Div4</div>
+          <div class="divTest">Div5</div>
+          <div class="divTest">Div7</div>
+          <div class="divTest">Div8</div>
+          <div class="divTest">Div9</div>
+          <div class="divTest">Div10</div>
+          <div class="divTest">Div11</div>
+          <div class="divTest">Div12</div>
+        </div>
+      </section>
     </main>
     <footer>este es el footer de contacto</footer>
   </body>
