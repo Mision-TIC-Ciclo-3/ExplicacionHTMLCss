@@ -77,3 +77,22 @@ ul {
 .iconoBusqueda:hover {
   color: blue;
 }
+
+.breedCardContainer {
+  display: flex;
+}
+
+.breedCard {
+  margin: 10px;
+}
+
+.contenedorImagen {
+  width: 240px;
+  height: 350px;
+  display: flex;
+}
+
+.contenedorImagen > img {
+  object-fit: cover;
+  width: 100%;
+}
